@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Temp Converter</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="temp-header">
+            <h2> Temperature Converter</h2>
+        </div>
+
+
+        <div class="temp-form">
+            <div class="temp-input">
+                
+                <label for="temperature-input">Enter Your Temperature Input</label>
+                <input type="number" id="temperature-input" required/>
+
+            </div>
+
+            <div class="temp-submit">
+                <button onClick="toDegree()"> Degree </button>
+                <button onClick="toFerenheit()" type="submit"> Ferenheit </button>
+                <button onClick="toKelvin()" type="submit"> Kelvin </button>
+            </div>
+
+            <div class="temp-output">
+                <p id="convertedOutput"> </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
